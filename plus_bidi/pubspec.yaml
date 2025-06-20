@@ -1,0 +1,14 @@
+name: plus_bidi
+version: 0.1.1
+description: Bidirectional-safe Writing Kit for to Deal with Internationalized Text; without Auto-detection
+author: Haruka Sato <as.he.that.doth.serve@gmail.com>
+homepage: https://hal.dev-pack.org/project/DartPkgs/plus_bidi/
+documentation: https://hal.dev-pack.org/project/DartPkgs/plus_bidi/docs
+repository: https://github.com/halka9000stg/LeCastleDart
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+dependencies:
+  intl: ^0.20.2
+topics:
+  - bidi
+  - intl
