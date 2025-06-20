@@ -1,0 +1,15 @@
+name: alter_graph
+version: 0.1.1
+description: >
+  AlterGraph: Alternative Way for to Describe Graph Structure and Calculate graph Algorithms
+author: Haruka Sato <as.he.that.doth.serve@gmail.com>
+homepage: https://hal.dev-pack.org/project/DartPkgs/alter_graph/
+documentation: https://hal.dev-pack.org/project/DartPkgs/alter_graph/docs
+repository: https://github.com/thinking-grp/Vermay
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+dependencies:
+topics:
+  - graph
+  - math
+  - structure
