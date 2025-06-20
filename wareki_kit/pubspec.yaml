@@ -1,0 +1,16 @@
+name: wareki_kit
+version: 0.1.1
+description: An Enhanced DateTime with Wareki, Japanese Calendar
+author: Haruka Sato <as.he.that.doth.serve@gmail.com>
+homepage: https://hal.dev-pack.org/project/DartPkgs/wareki_kit/
+documentation: https://hal.dev-pack.org/project/DartPkgs/wareki_kit/docs
+repository: https://github.com/halka9000stg/LeCastleDart
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+dependencies:
+  qreki_dart: ^1.0.1
+  calc_wareki: ^0.0.3
+topics:
+  - wareki
+  - calendar
+  - japanese
