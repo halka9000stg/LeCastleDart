@@ -53,7 +53,7 @@ class BidarsParser {
           Object op = switch(BidarsParser.precSymbolChar(currLine)){
             "#" => ignoreTo(currLine),
             "%" => entryTo(currLine),
-            "$" => pragmaTo(currLine), 
+            "\$" => pragmaTo(currLine), 
             "!!" => metaTo(currLine),
             _ => errorTo(currLine),
           }
@@ -62,7 +62,7 @@ class BidarsParser {
   }
 
   static List<String> rootEntryCand = <String>["entry", "root", "main"];
-  static List<String> precSymbols = <String>["%", "$", "#", "!!"];
+  static List<String> precSymbols = <String>["%", "\$", "#", "!!"];
   static String entryCloseSymbol = "---";
   static String inlineCommentSymbol = "";
   static EnvelopeString attrParen = (start: "[", end: "]");
